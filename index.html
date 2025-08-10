@@ -148,12 +148,39 @@
 
 <section id="contact">
     <h2>Contact</h2>
-    <form>
-        <input type="text" name="name" placeholder="Votre nom" required>
-        <input type="email" name="email" placeholder="Votre email" required>
-        <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
-        <button type="submit">Envoyer</button>
-    </form>
+<form action="https://formspree.io/f/xkgzkzrj" method="POST">
+  <label>
+    Nom complet :
+    <input type="text" name="name" required>
+  </label>
+
+  <label>
+    Email :
+    <input type="email" name="email" required>
+  </label>
+
+  <label>
+    Téléphone :
+    <input type="tel" name="phone">
+  </label>
+
+  <label>
+    Service demandé :
+    <select name="service" required>
+      <option value="">-- Choisissez un service --</option>
+      <option value="Remplacement robinetterie">Remplacement de robinetterie</option>
+      <option value="Remplacement chasse d'eau">Remplacement de chasse d'eau</option>
+      <option value="Débouchage">Débouchage</option>
+    </select>
+  </label>
+
+  <label>
+    Message :
+    <textarea name="message"></textarea>
+  </label>
+    
+  <button type="submit">Envoyer</button>
+</form>
 </section>
 
 <!-- Footer responsive -->
