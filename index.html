@@ -103,6 +103,54 @@
             max-width: 300px;
             margin-bottom: 1rem;}
                 }
+        form {
+            max-width: 600px;
+            margin: auto;
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);}
+        form label {
+            display: block;
+            margin-bottom: 15px;
+            font-weight: 600;
+            color: #333;}
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="tel"],
+        form select,
+        form textarea {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1.5px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-family: inherit;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;}
+        form input[type="text"]:focus,
+        form input[type="email"]:focus,
+        form input[type="tel"]:focus,
+        form select:focus,
+        form textarea:focus {
+            border-color: #0077b6;
+            outline: none;}
+        form textarea {
+            resize: vertical;
+            min-height: 100px;}
+        form button[type="submit"] {
+            background-color: #0077b6;
+            color: white;
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;}
+        form button[type="submit"]:hover {
+            background-color: #023e8a;}
     </style>
 </head>
 <body>
