@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MatthiasMaj
-- 🌱 I’m currently learning Java on Amazon Junior Software Developement
-- 💞️ I’m looking to collaborate on everything in Java to learn
+- 🌱 I’m currently learning Web developement
+- 💞️ I’m looking to collaborate on everything in web
 - 📫 How to reach me ...
 - ⚡ Fun fact: I'm plumber.
 
