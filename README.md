@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @MatthiasMaj
-- 🌱 I’m currently learning Java on Amazon Junior Software Developement
+- 🌱 I’m currently learning how to be a full stack developer
 - 💞️ I’m looking to collaborate on everything in Java to learn
 - 📫 How to reach me ...
 - ⚡ Fun fact: I'm plumber.
